@@ -1,0 +1,93 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+body{
+    background: #fffefe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    height: 200px;
+    width: 530px;
+    background-color: aliceblue;
+    border-radius: 25px;
+    border: 1px solid black;
+    position: relative;
+    top: 100px;
+    display: flex;
+    overflow: hidden;
+    
+}
+.bbbb:hover{
+    height: 37px ;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    width: 70%;
+    background: #1903e0;
+    border-radius: 25px;
+    border: 2px solid rgb(253, 249, 249);
+    color: white;
+}
+.main:hover .imga{
+right: 0;
+}
+.imga{
+    height: 200px;
+    width: 530px;
+   background-color: rgba(245, 247, 247, 0.979);
+    border-radius: 25px;
+    
+    right: -100%;
+    position: absolute;
+    justify-content: center;
+   align-items: center;
+ 
+    flex-direction: column;
+    object-fit: cover;
+}
+.bbbb{
+    height: 37px ;
+    width: 70%;
+    background-color: rgba(69, 153, 248, 0.877);
+   border-radius: 25px;
+   
+   margin-top: 5px;
+   margin-left: 10px;
+   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+   color: aliceblue;
+  
+}
+.imga h1{
+    margin-left: 10px;
+    margin-top: 5px;
+font-size: 14px;
+font-weight: 100;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.had { 
+    margin-top: 34px;
+    margin-left: 20px;
+}
+.had span{
+    color: brown;
+    text-transform: uppercase;
+}
+.had p{
+    text-transform: capitalize;
+}
+.had h1{
+    margin-bottom: 10px;
+}
+.circle{
+    height: 120px;
+    width: 120px;
+    background-color: antiquewhite;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-left: 30px;
+    background-image: url('https://images.theconversation.com/files/102116/original/image-20151117-4970-ulole9.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1000&fit=clip');
+    background-size: cover;
+    border: 2px solid rgba(0, 0, 0, 0.808);
+}

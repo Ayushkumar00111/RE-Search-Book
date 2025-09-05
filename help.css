@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.whole_about{
+    height: 100%;
+    width: 100%;
+    
+    
+}
+/* .teratree{
+    background-position: center;
+    background-size: cover; 
+    filter: blur(4px);
+} */
+
+.back{
+    height: 2rem;
+    width: 5rem;
+    background:  rgb(3, 84, 99);
+    border-radius: 0 0 1.1rem 0;
+
+   
+    
+  
+  
+    padding-left: 1rem;
+    border: 1.1px solid white;
+}
+.back_to_home {
+    
+    position: sticky;
+   top:0;
+   z-index: 100000;
+}
+.back_to_home a{
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+    font-size: 1.2rem;
+    padding-left: 0rem;
+}
+/* .back_to_home a:hover{ 
+    background: white;
+    color:black;
+    border: 1px solid rgb(41, 40, 40);
+} */
+
+.back:hover{ 
+    background: white;
+    color:black;
+    color: black;
+    border: 1px solid rgb(41, 40, 40);
+    border-radius: 0 0 1.1rem 0;
+}
+.back{
+    line-height: 2rem;   
+}
+.headline_of_about  .back {
+    position: sticky;
+    top:0;
+    z-index: 100000;
+   display: flex;
+   justify-content: center;
+   cursor: pointer;
+}
+
+
+h1{
+    font-size: 5rem;
+    align-items: center;
+ 
+}
+.first_div h1{
+    font-size: 2rem;
+    padding-top: 0.4rem;
+}
+.first_div{
+    height: 3rem;
+    width: 100%;
+    color: white;
+    background-color: rgb(3, 84, 99);
+    font-size: 1rem;
+}
+.div_for_2{
+    height: 35rem;
+    width: auto;
+   display: flex;
+  
+}
+.div1{
+    height: 30rem;
+    width: auto;
+   display: flex;
+  
+}
+.forcontant h2{
+    color: rgb(3, 84, 99);
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-style: oblique;
+}
+.forcontant samp{
+    color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.forcontant samp{
+    color:rgb(3, 84, 99) ;
+    font-size: 1.5rem;
+}
+.forcontant{
+    margin-top: 1rem;
+    color: rgb(10, 10, 10);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.4rem;
+    margin-left: 1.5rem;
+    margin-right: 1.1rem;
+}
+.for_img img{
+    margin-top:  2rem;
+    height: 24rem;
+    width: 40rem;
+    background-position: 0%;
+    background-size: cover;
+    margin-left: 2rem;
+
+}
+.for_img2 img{
+    margin-top:  2rem;
+    height: 24rem;
+    width: 40rem;
+    background-position: 0%;
+    background-size: cover;
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+}
+.futoor p{
+    line-height: 2.5rem;
+}
+.futoor{
+    height: 3rem;
+    width: auto;
+    background: #000;
+    color: white;
+   
+    border: 2px solid white;
+}

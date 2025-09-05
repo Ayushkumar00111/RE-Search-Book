@@ -1,0 +1,810 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.hello h1 :hover{
+    color: rgb(7, 7, 7);
+}
+.hello a:hover{
+    color: black;}
+.main{
+    width: 100%;
+    height: 100vp;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+    margin: auto;
+   
+
+    
+}
+.main ul li{
+    list-style: none;
+    display: inline-block;
+   
+   margin: 0 12px;
+   border-right:1px solid black ;
+    padding-right: 8px;
+
+
+}
+.hero{
+    height: 150px;
+    align-items: center;
+    display: flex;
+   
+    
+}
+.logo{
+   width: 200px; 
+    height:130px;
+    background-size: cover;  
+}
+
+@media screen and (max-width: 720px) {
+    .logo{
+        width: 100px; 
+         height:90px;
+         
+     }
+     #searchbutoon{
+        display: none;
+     }
+     #newsec{
+        margin-left: 7rem;
+     }
+}
+.button{
+    margin-left: 100px;
+    width: 678px;
+    height: 32px;
+    background-color: rgb(3, 84, 99);
+    display: flex;
+    box-shadow: 6px 20px 20px rgba(0, 0, 0, 0.3);
+
+}
+.button1{
+    height: 30px;
+    width: 600px;
+    padding-left: 40px;
+    border-top: 1px solid rgb(46, 44, 44);
+    border-left: 1px solid rgb(46, 44, 44);
+    border-bottom: 1px solid rgb(46, 44, 44);
+
+    
+    cursor: pointer;
+ 
+
+}
+.button i{
+    color: white;
+ margin-top: 7px;
+ margin-left: 8px;
+    size: 18px;
+}
+
+.hero h1{
+    font-size: 19px;
+    font-weight: 10;
+    padding-left: 100px;
+}
+.hero h2{
+    font-size: 19px;
+    font-weight: 10;
+    padding-left: 30px;
+
+}
+.hello{
+    height: 60px;
+    background-color: rgb(22, 122, 122);
+    color: white;
+    display: flex;
+   padding-left: 20px;
+   align-items: center;
+   cursor: pointer;
+   position: sticky;
+   top:0;
+   z-index: 100000;
+
+}
+.hello ul li:hover{
+    color: rgb(3, 3, 3);
+    
+    
+    
+}
+
+.zero2{
+    height: 3rem;
+    width: 8rem;
+    border-radius: 17px;
+    border: none;
+    background-color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    font-weight: 400;
+    box-shadow: none;
+   
+   margin-left: -0.1rem;
+    color:  rgb(13, 105, 105);
+   font-size: 3rem;
+
+}
+
+  .zero{/* that is new class */
+    height: 2rem;
+    width: 6.8rem;
+    color: white ;
+    border-radius: 17px;
+    border:0.1rem solid rgba(0, 0, 0, 0.774);
+    background-color: rgb(13, 105, 105);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    box-shadow: 6px 20px 20px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+   
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+   line-height: 2rem;
+   justify-content: center;
+   
+
+}
+
+ 
+.zero:hover{
+    border-radius: 17px;
+    cursor: pointer;
+    background: white;
+    color: #000;
+    border: 1px solid black;
+}
+
+.hello ul li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 30px;
+    
+}
+.hello h1{
+    font-size: 15px;
+    font-weight: 5px;
+    cursor: pointer;
+    padding-left: 500px;
+    font-family: 'Times New Roman', Times, serif;
+    align-content: end;
+    
+}
+.hello h2{
+    font-size: 15px;
+    font-weight: 5px;
+    cursor: pointer;
+    padding-left: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.hello a{
+    text-decoration:none ;
+    color: aliceblue;
+    }
+
+.hardnew{
+    height: 450px;
+    
+    width: auto;
+    margin-top: 50px;
+   justify-content: space-evenly;
+    display: flex;
+    
+}
+.hard{     /*haerd js new */
+    height: 800px;
+    background: #000;
+    width: auto;
+    margin-top: 50px;
+   justify-content: space-evenly;
+    display: flex;
+    
+}
+.hiddenpart{
+   color: #000;
+}
+.back{
+    height: 2rem;
+    width: 6rem;
+    border-radius: 17px;
+    border: 0.5px solid rgb(3, 46, 42);
+   margin-top: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+   color: white;
+    background-color: rgb(13, 105, 105);
+    box-shadow: 6px 20px 20px rgba(0, 0, 0, 0.3);
+}
+.back:hover{
+    cursor: pointer;
+    background: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+
+
+.parahiden{
+    height: 350px;
+    width: auto;
+   margin-left: 2rem;
+   display: none;
+   margin-right: 1rem;
+   font-size: 20px;
+   font-style: italic;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 50px;
+   
+   color: rgb(61, 60, 60) ;
+}
+.hard1{
+    width: 45%;
+    height: 400px;
+   margin-left: 20px;
+    display: block;
+   
+    
+}
+.hard2:hover{
+    border: 0.789px solid rgb(2, 60, 87);
+    border-radius: 25px;
+    
+}
+.hard3:hover{
+    border: 0.789px solid rgb(2, 60, 87);
+   
+    border-radius: 25px;
+}
+.hard4:hover{
+    border: 0.789px solid rgb(2, 60, 87);
+    
+    border-radius: 25px;
+}
+.hard5:hover{
+    border: 0.789px solid rgb(2, 60, 87);
+    
+    border-radius: 25px;
+}
+.hard2{
+    width: 200px;
+    height: 400px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3);
+    display: block;
+}
+.hard3{
+    width: 200px;
+    height: 400px;
+    display: block;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3);
+}
+.hard4{
+    width: 200px;
+    display: block;
+    height: 400px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3);
+}
+.hard5{
+    width: 200px;
+    height: 400px;
+    display: block;
+     box-shadow: 6px 20px 20px rgba(0, 0, 0, 0.3); 
+}
+.hard1 h1{
+   font-size: 45px;
+    font-weight: 400;
+   font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.hard1 h4{
+    font-size: 25px;
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+}
+.hard1 p{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 10px;
+    font-style: italic;
+    color: rgb(61, 60, 60) ;
+}
+.book1{
+    width: 150px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    margin: 20px 30px;
+}
+.hard2 p{
+    font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;
+font-weight: 50px;
+color: rgb(61, 60, 60);
+margin-left: 30px;
+}
+.hard2 h6{
+    color: brown;
+    margin-left: 30px;
+    font-size: 16px;
+}
+.book2{
+    width: 150px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    margin: 20px 30px;
+
+}
+.hard3 p{
+    font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;
+font-weight: 50px;
+color: rgb(61, 60, 60);
+margin-left: 30px;
+
+}
+.hard3 h6{
+    color: brown;
+    margin-left: 30px;
+    font-size: 16px;
+}
+.book3{
+    width: 150px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    margin: 20px 30px;
+}
+.hard4 p{
+    font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;
+font-weight: 50px;
+color: rgb(61, 60, 60);
+margin-left: 30px;
+
+}
+.hard4 h6{
+    color: brown;
+    margin-left: 30px;
+    font-size: 16px;
+}
+.book4{
+    width: 140px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    margin: 20px 30px;   
+}
+.hard5 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 50px;
+    color: rgb(61, 60, 60);
+    margin-left: 30px;
+}
+.hard5 h6{
+  
+    color: brown;
+    margin-left: 30px;
+    font-size: 16px;
+}
+.bhai{
+    height: 140px;
+    width: auto;
+   
+   margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    margin-top: 40px;
+   display: flex;
+   justify-content: space-between;
+
+}
+.bhai h3 span{
+    color: rgb(18, 90, 90);
+}
+
+.bhai h3{
+    font-size: 45px;
+    font-weight: 400;
+   font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    
+    color: rgb(22, 21, 21);
+    
+    padding-top: 10px;
+    display: inline-block;
+    
+
+}
+.buton{
+    width: 170px;
+    height: 40px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3); 
+    background-color: rgb(22, 122, 122);
+    color: antiquewhite;
+    border: 1.5 solid rgb(3, 48, 56);
+    border-radius: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    margin-left: 50rem;
+    font-size: 15px;
+    margin-top: 26px;
+}
+.buton:hover{
+    background-color: white;
+    border: 1px solid black;
+    width: 170px;
+    border-radius: 17px;
+    color: black;
+    height: 40px;
+}
+.baap{
+   max-height: 450px;
+   
+    
+    margin-top: 45px;
+    display: flex;
+    margin-bottom: 1rem;
+    align-items: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    justify-content: space-between;
+    
+}
+.baap ::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+     
+}
+.baap #charge{
+    min-width: 200px;
+    height: 410px;
+    margin-right: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+    
+}
+.bhai1:hover{
+    border: 0.789px solid rgb(2, 60, 87);
+    border-radius: 25px;
+
+}
+.bhai2:hover{
+    border: 0.789px solid rgb(2, 60, 87);
+    border-radius: 25px;
+
+}
+.bhai3:hover{
+    border: 0.789px solid rgb(2, 60, 87);
+    border-radius: 25px;
+
+}
+.bhai4:hover{
+    border: 0.789px solid rgb(2, 60, 87);
+    border-radius: 25px;
+
+}
+.bhai5:hover{
+    border: 0.789px solid rgb(2, 60, 87);
+    border-radius: 25px;
+
+}
+.bhai1{
+    width: 200px;
+    height: 400px;
+    display: inline-block;
+    margin-left: 20px;
+     box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3);
+    
+    
+}
+.bhai2{
+    width: 200px;
+    height: 400px;
+    display: inline-block;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3);
+   
+}
+.bhai3{
+    width: 200px;
+    height: 400px;
+    display: inline-block;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3);
+    
+}
+.bhai4{
+    width: 200px;
+    height: 400px;
+    display: inline-block;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3);
+    
+}
+.bhai5{
+    width: 200px;
+    height: 400px;
+    display: inline-block;
+   
+     box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3); 
+   
+}
+.bhai6{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    background-color: rgb(41, 124, 99);
+    border-radius:50% ;
+    border: 1px solid rgb(3, 54, 39);
+    padding-top: 2px;
+    color: aliceblue;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+
+}
+.bhai6:hover{
+    background-color: white;
+    color: black;
+}
+.bhai6 i{
+    padding-top: 8px;
+    margin-top: 8px;
+}
+.photo1{
+    width: 150px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    margin: 20px 30px;
+}
+.bhai1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 50px;
+    color: rgb(61, 60, 60);
+    margin-left: 30px;
+}
+.bhai1 a{
+    color: brown;
+    margin-left: 30px;
+}
+.photo2{
+    width: 150px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    margin: 20px 30px; 
+}
+.bhai2 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 50px;
+    color: rgb(61, 60, 60);
+    margin-left: 30px;
+}
+.bhai2 a{
+    color: brown;
+    margin-left: 30px;
+}
+.photo3{
+    width: 150px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    margin: 20px 30px; 
+}
+.bhai3 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 50px;
+    color: rgb(61, 60, 60);
+    margin-left: 30px;
+}
+.bhai3 a{
+    color: brown;
+    margin-left: 30px;
+}   
+.photo4{
+    width: 150px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    margin: 20px 30px;   
+}
+.bhai4 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 50px;
+    color: rgb(61, 60, 60);
+    margin-left: 30px;  
+}
+.bhai4 a{
+    color: brown;
+    margin-left: 30px;   
+}
+.photo5{
+    width: 140px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    margin: 20px 30px; 
+    
+}
+.bhai5 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 50px;
+    color: rgb(61, 60, 60);
+    margin-left: 30px;
+}
+.bhai5 a{
+    color: brown;
+    margin-left: 30px;
+
+}
+.fotter{
+    height: 670px;
+    width: auto;
+    background-color: rgb(230, 227, 227);
+    
+    padding-left: 30px;
+}
+.rat{
+    height: 130px;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    font-family:'Times New Roman', Times, serif ;
+    padding-top: 70px;
+    font-weight: 700;
+}
+.rat1 p{
+    padding-left: 30px;
+    margin-left: 20px;
+}
+.rat1{
+    margin-left: 30px;
+}
+.rat2{
+    margin-left: 30px;
+}
+.rat3{
+    margin-left: 30px;
+}
+.rat4{
+    margin-left: 30px;
+}
+
+
+
+.rat2 p{
+    padding-left: 30px;
+    margin-left: 25px;
+}
+.rat3 p{
+    padding-left: 30px;
+    margin-left: 25px;
+}
+.rat4 p{
+    padding-left: 30px;
+    margin-left: 25px;
+}
+.moss{
+    height: 100px;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-bottom: 30PX;
+}
+.logo22{
+    height: 100px;
+    width: 199px;
+    background-size: cover;
+    padding-left:2px ;
+    margin-right: 50px;
+    margin-bottom: 70px;
+    padding-bottom: 40px;
+}
+.moss h2{
+    color: rgb(31, 82, 82);
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    margin-top: 40px;
+
+}
+.con{
+height: 40%;
+width: 100%;
+display: flex;
+
+
+}
+.number{
+    height: 200px;
+    width: 250px;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    color: rgb(60, 66, 71);
+}
+.dirary{
+    height: 200px;
+    width: 250px;
+    margin-left: 85px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    color: rgb(60, 66, 71); 
+}
+.nnn{
+    height: 200px;
+    width: 250px;
+    margin-left: 85px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    color: rgb(60, 66, 71); 
+}
+.parafram{
+    height: 200px;
+    width: 250px;
+    margin-left: 48px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    color: rgb(60, 66, 71);
+
+}
+.insta{
+    height: 30px;
+    width: 100px;
+    border: 2px solid rgb(2, 60, 70);
+    border-radius: 20px;
+    background:transparent;
+}
+.parafram i{
+    padding-top: 30px;
+    padding-right: 8px;
+    margin-top: 10px;
+}
+.hello a{
+text-decoration:none ;
+color: aliceblue;
+}
+.main a{
+    color: black;
+    text-decoration: none;
+}
+.main ul :hover{
+    color: rgb(243, 18, 18);
+} 
+.main a:hover{
+    color: red;
+}
+.button i{
+    color: white;
+ margin-top: 7px;
+ margin-left: 8px;
+    size: 18px;
+}
+.button{
+    
+    width: 680px;
+    height: 32px;
+    background-color: rgb(3, 84, 99);
+    display: flex;
+}
+

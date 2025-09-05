@@ -1,0 +1,81 @@
+.midddle{
+    height: 300px;
+    width: 100%;
+    
+   
+    background-position: 0%;
+
+}
+.midddle1{
+    height: 300px;
+    width: 100%;
+    margin-top: 100px;
+   
+    background-position: 0%;
+}
+.bhe span{
+    color: rgb(6, 114, 114);
+}
+.midd span{
+    color: rgb(6, 114, 114);
+    font-size: 40px;
+}
+.midd h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 80px;
+    font-weight: 400;
+    position: center;
+margin-left: 30px;
+    
+}
+.middle21{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+.imgh{
+    height: 220px;
+    width: 900px;
+    background-size: cover;
+    backdrop-filter: blur(200px);
+}
+.middle22{
+    height: 200px;
+    width: 50%;
+    padding-bottom: 20px;
+    border-bottom:1px solid black ;
+    margin-left: 80px;
+    margin-top: 20px;
+display: flex;
+border: 2px solid black;
+overflow: hidden;
+top: 0;
+right: -100%;
+
+}
+
+.had { 
+    margin-top: 40px;
+    margin-left: 20px;
+   
+
+}
+.had span{
+    color: brown;
+}
+.had h1{
+    margin-bottom: 20px;
+}
+.circle{
+    height: 150px;
+    width: 150px;
+    background-color: antiquewhite;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-left: 30px;
+    background-image: url('https://images.theconversation.com/files/102116/original/image-20151117-4970-ulole9.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1000&fit=clip');
+    background-size: cover;
+    border: 2px solid rgba(0, 0, 0, 0.808);
+}

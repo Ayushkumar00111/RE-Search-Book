@@ -1,0 +1,706 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.hello h1 :hover{
+    color: rgb(7, 7, 7);
+}
+.hello a:hover{
+    color: black;}
+.main{
+    width: auto;
+    height: 100vp;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+    margin: auto;
+    
+
+    
+}
+.main ul li{
+    list-style: none;
+    display: inline-block;
+   
+   margin: 0 12px;
+   border-right:1px solid black ;
+    padding-right: 8px;
+
+
+}
+.hero{
+    height: 150px;
+    align-items: center;
+    display: flex;
+   
+    
+}
+.logo{
+   width: 200px; 
+    height:130px;
+    background-size: cover;  
+}
+.button{
+    margin-left: 100px;
+    width: 678px;
+    height: 32px;
+    background-color: rgb(3, 84, 99);
+    display: flex;
+
+}
+.button1{
+    height: 30px;
+    width: 600px;
+    padding-left: 40px;
+    border-top: 1px solid rgb(46, 44, 44);
+    border-left: 1px solid rgb(46, 44, 44);
+    border-bottom: 1px solid rgb(46, 44, 44);
+
+    
+    cursor: pointer;
+ 
+
+}
+.button i{
+    color: white;
+ margin-top: 7px;
+ margin-left: 8px;
+    size: 18px;
+}
+
+.hero h1{
+    font-size: 19px;
+    font-weight: 10;
+    padding-left: 150px;
+}
+.hero h2{
+    font-size: 19px;
+    font-weight: 10;
+    padding-left: 30px;
+
+}
+.hello{
+    height: 60px;
+    background-color: rgb(22, 122, 122);
+    color: white;
+    display: flex;
+   padding-left: 20px;
+   align-items: center;
+   cursor: pointer;
+   position: sticky;
+   top:0;
+   z-index: 100000;
+}
+.hello ul li:hover{
+    color: rgb(3, 3, 3);
+    
+    
+    
+}
+
+.zero{
+    height: 40px;
+    width: 170px;
+    border-radius: 17px;
+    border: 0.5px solid rgb(3, 46, 42);
+    background-color: rgb(70, 126, 126);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(247, 249, 250);
+}
+.hello ul li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 40px;
+    
+}
+.hello h1{
+    font-size: 15px;
+    font-weight: 5px;
+    cursor: pointer;
+    padding-left: 500px;
+    font-family: 'Times New Roman', Times, serif;
+    align-content: end;
+    
+}
+.hello h2{
+    font-size: 15px;
+    font-weight: 5px;
+    cursor: pointer;
+    padding-left: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.hello a{
+    text-decoration:none ;
+    color: aliceblue;
+    }
+.middle{
+    height: 600px;
+    width: auto;
+    position: center;
+    
+    justify-content: center;
+}
+.box{
+    height: 400px;
+    width: 89%;
+   
+    background-size: 100% ;
+    animation: slider 7s infinite 0s  linear ;
+    background-image: url('https://media.istockphoto.com/id/1312155376/photo/bookshelves-in-the-library-large-bookcase-with-lots-of-books-reading-books-library-or-shop.jpg?s=612x612&w=0&k=20&c=1MnIAxLyRJ1dYRiz8k9kimryzOsRtmRBRIkjkoMC-rE=');
+    margin-top: 30px;
+   box-shadow: 20px 20px 20px rgba( 0, 0, 0, 0.3);
+}
+@keyframes  slider {
+    0%{  background-image: url('https://media.istockphoto.com/id/1312155376/photo/bookshelves-in-the-library-large-bookcase-with-lots-of-books-reading-books-library-or-shop.jpg?s=612x612&w=0&k=20&c=1MnIAxLyRJ1dYRiz8k9kimryzOsRtmRBRIkjkoMC-rE=');}
+    35%{ background-image: url('https://miro.medium.com/v2/resize:fit:2000/0*0ReYI0qSA83soKl_');}
+    75%{ background-image: url('https://igcseaid.files.wordpress.com/2018/02/notes1.jpg?w=661&h=494');}
+   99%{ background-image: url('https://camosun.ca/sites/default/files/styles/responsive_1280/public/2021-01/young-woman-reaching-book-library-2_0.jpg?itok=bYVpbHAa');}
+}
+.box:hover{
+    border: 0.1px solid rgb(17, 170, 216);
+}
+.middle h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    font-size: 50px;
+    color: rgba(7, 7, 7, 0.416);
+    margin-top: 30px;
+}
+.middle h2{
+    font-weight: 700;
+    font-size: 70px;
+    color: rgb(24, 24, 24);
+}
+.basss h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    color: rgba(46, 45, 45, 0.753);
+    margin-left: 20px;
+}
+.notes{
+    height: 300px;
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+    
+    padding-left: 10px;
+    margin-top: 30px;
+}
+
+.photo50{
+    height: 200px;
+    width: 92%;
+   margin: 8px;
+    background-position: center;
+    background-size: cover;
+}
+
+.notes h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left:10px ;
+    color: rgba(245, 0, 0, 0.89);
+}
+.notes p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    margin-left:10px ;
+    margin-top: 8px;
+    color: rgba(18, 18, 19, 0.856);
+}
+.not1{
+    height: 270px;
+    width: 170px;
+    box-shadow: 10px 10px 10px rgba( 0, 0, 0, 0.3);
+    border-radius: 25px;
+    
+}
+.not1:hover{
+    border: 1px solid black;
+}
+.not2:hover{
+    border: 1px solid black;
+}
+.not3:hover{
+    border: 1px solid black;
+}
+.not4:hover{
+    border: 1px solid black;
+}
+.not5:hover{
+    border: 1px solid black;
+}
+.not6:hover{
+    border: 1px solid black;
+}
+.not7:hover{
+    border: 1px solid black;
+}
+.not2{
+    height: 270px;
+    width: 170px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px rgba( 0, 0, 0, 0.3);
+    
+}
+.not3{
+    height: 270px;
+    width: 170px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px rgba( 0, 0, 0, 0.3);
+    
+}
+.not4{
+    height: 270px;
+    width: 170px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px rgba( 0, 0, 0, 0.3);
+    
+}
+.not5{
+    height: 270px;
+    width: 170px;
+    box-shadow: 10px 10px 10px rgba( 0, 0, 0, 0.3);
+    border-radius: 25px;
+   
+}
+.not6{
+    height: 270px;
+    width: 170px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px rgba( 0, 0, 0, 0.3);
+    
+}
+.not7{
+    height: 270px;
+    width: 170px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px rgba( 0, 0, 0, 0.3);
+    
+}
+.phtot1{
+    height: 451px;
+    width: 50%;
+   
+   background-image: url('https://static.vecteezy.com/system/resources/previews/023/104/160/non_2x/not-available-rubber-stamp-seal-vector.jpg');
+   background-size: cover;
+}
+.phtot{
+    height: 4288px;
+    
+    padding-top: 50px;
+}
+.fotter{
+    height: 670px;
+    width: auto;
+    background-color: rgb(230, 227, 227);
+    
+    padding-left: 30px;
+}
+.rat{
+    height: 130px;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    font-family:'Times New Roman', Times, serif ;
+    padding-top: 70px;
+    font-weight: 700;
+}
+.rat1 p{
+    padding-left: 30px;
+    margin-left: 20px;
+}
+.rat1{
+    margin-left: 30px;
+}
+.rat2{
+    margin-left: 30px;
+}
+.rat3{
+    margin-left: 30px;
+}
+.rat4{
+    margin-left: 30px;
+}
+
+
+
+.rat2 p{
+    padding-left: 30px;
+    margin-left: 25px;
+}
+.rat3 p{
+    padding-left: 30px;
+    margin-left: 25px;
+}
+.rat4 p{
+    padding-left: 30px;
+    margin-left: 25px;
+}
+.moss{
+    height: 100px;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-bottom: 30PX;
+}
+.logo22{
+    height: 100px;
+    width: 199px;
+    background-size: cover;
+    padding-left:2px ;
+    margin-right: 50px;
+    margin-bottom: 70px;
+    padding-bottom: 40px;
+}
+.moss h2{
+    color: rgb(31, 82, 82);
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    margin-top: 40px;
+
+}
+.con{
+height: 40%;
+width: 100%;
+display: flex;
+
+
+}
+.number{
+    height: 200px;
+    width: 250px;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    color: rgb(60, 66, 71);
+}
+.dirary{
+    height: 200px;
+    width: 250px;
+    margin-left: 85px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    color: rgb(60, 66, 71); 
+}
+.nnn{
+    height: 200px;
+    width: 250px;
+    margin-left: 85px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    color: rgb(60, 66, 71); 
+}
+.parafram{
+    height: 200px;
+    width: 250px;
+    margin-left: 48px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    color: rgb(60, 66, 71);
+
+}
+.insta{
+    height: 30px;
+    width: 100px;
+    border: 2px solid rgb(2, 60, 70);
+    border-radius: 20px;
+    background:transparent;
+}
+.parafram i{
+    padding-top: 30px;
+    padding-right: 8px;
+    margin-top: 10px;
+}
+.hello a{
+text-decoration:none ;
+color: aliceblue;
+}
+.SEMESTERLINE2{
+    border: 0.8px solid black;
+    display: inline;
+    padding: 1.5rem;
+    border-radius: 5rem;
+    box-shadow: 10px 10px 10px rgba( 0, 0, 0, 0.3);
+}
+.SEMESTERLINE{
+    border: 0.8px solid black;
+    display: inline;
+    padding: 1.5rem;
+    border-radius: 5rem;
+    box-shadow: 10px 10px 10px rgba( 0, 0, 0, 0.3);
+}
+
+.SEMESTERLINE6{
+    border: 0.8px solid black;
+    display: inline;
+    padding: 1.5rem;
+    border-radius: 5rem;
+    box-shadow: 10px 10px 10px rgba( 0, 0, 0, 0.3);
+}
+.SEMESTERLINE5{
+    border: 0.8px solid black;
+    display: inline;
+    padding: 1.5rem;
+    border-radius: 5rem;
+    box-shadow: 10px 10px 10px rgba( 0, 0, 0, 0.3);
+}
+.SEMESTERLINE3{
+    border: 0.8px solid black;
+    display: inline;
+    padding: 1.5rem;
+    border-radius: 5rem;
+    box-shadow: 10px 10px 10px rgba( 0, 0, 0, 0.3);
+}
+.SEMESTERLINE8{
+    border: 0.8px solid black;
+    display: inline;
+    padding: 1.5rem;
+    border-radius: 5rem;
+    box-shadow: 10px 10px 10px rgba( 0, 0, 0, 0.3);
+}
+.SEMESTERLINE7{
+    border: 0.8px solid black;
+    display: inline;
+    padding: 1.5rem;
+    border-radius: 5rem;
+    box-shadow: 10px 10px 10px rgba( 0, 0, 0, 0.3);
+}
+.SEMESTERLINE4{
+    border: 0.8px solid black;
+    display: inline;
+    padding: 1.5rem;
+    border-radius: 5rem;
+    box-shadow: 10px 10px 10px rgba( 0, 0, 0, 0.3);
+}
+.SEMESTERLINE9{
+    border: 0.8px solid black;
+    display: inline;
+    padding: 1.5rem;
+    border-radius: 5rem;
+    box-shadow: 10px 10px 10px rgba( 0, 0, 0, 0.3);
+}
+.SEMESTERLINE10{
+    border: 0.8px solid black;
+    display: inline;
+    padding: 1.5rem;
+    border-radius: 5rem;
+    box-shadow: 10px 10px 10px rgba( 0, 0, 0, 0.3);
+}
+.buton2diploma{
+    width: 170px;
+    height: 40px;
+     box-shadow: 20px 15px 20px rgba(0, 0, 0, 0.3); 
+
+    background-color:white;
+    color: white;
+    border: 1.5 solid rgb(3, 48, 56);
+    border-radius: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+  
+  display: none;
+  
+  font-size: 1rem;
+  margin-top: 20px;
+  padding-left: 1rem;
+}
+.buton2diploma5{ 
+    width: 170px;
+    height: 40px;
+     box-shadow: 20px 15px 20px rgba(0, 0, 0, 0.3); 
+
+    background-color:rgb(253, 253, 253);
+    color: white;
+    border: 1.5 solid rgb(3, 48, 56);
+    border-radius: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+   display: none;
+ 
+  
+  font-size: 1rem;
+  margin-top: 20px;
+  padding-left: 1rem;
+}
+.budiploma4{
+    width: 170px;
+    height: 40px;
+     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3); 
+
+    background-color:white;
+    color: white;
+    border: 1.5 solid rgb(3, 48, 56);
+    border-radius: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+   display: inline-block;
+  align-items: center;
+  margin-right: 20px;
+  font-size: 2rem;
+  margin-top: 3px;
+  padding-left: 1rem;
+}
+.budiploma3{
+    width: 170px;
+    height: 40px;
+     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3); 
+
+    background-color:white;
+    color: white;
+    border: 1.5 solid rgb(3, 48, 56);
+    border-radius: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+   display: inline-block;
+  align-items: center;
+  margin-right: 20px;
+  font-size: 2rem;
+  margin-top: 3px;
+  padding-left: 1rem;
+}
+
+.budiploma{
+    width: 170px;
+    height: 40px;
+     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3); 
+
+    background-color:white;
+    color: white;
+    border: 1.5 solid rgb(3, 48, 56);
+    border-radius: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+   display: inline-block;
+  align-items: center;
+  margin-right: 20px;
+  font-size: 2rem;
+  margin-top: 3px;
+  padding-left: 1rem;
+}
+.budiploma6{
+    width: 170px;
+    height: 40px;
+     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3); 
+
+    background-color:white;
+    color: white;
+    border: 1.5 solid rgb(3, 48, 56);
+    border-radius: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+   display: inline-block;
+  align-items: center;
+  margin-right: 20px;
+  font-size: 2rem;
+  margin-top: 4px;
+  padding-left: 1rem;
+}
+.budiploma2{
+    width: 170px;
+    height: 40px;
+     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3); 
+
+    background-color:white;
+    color: white;
+    border: 1.5 solid rgb(3, 48, 56);
+    border-radius: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+   display: inline-block;
+  align-items: center;
+  margin-right: 20px;
+  font-size: 2rem;
+  margin-top: 4px;
+  padding-left: 1rem;
+}
+.budiploma4:hover{
+    
+    border: 3px solid rgb(113, 248, 72);
+    width: 170px;
+    border-radius: 17px;
+    color: black;
+    height: 40px;
+}
+.budiploma3:hover{
+    
+    border: 3px solid rgb(113, 248, 72);
+    width: 170px;
+    border-radius: 17px;
+    color: black;
+    height: 40px;
+}
+.budiploma2:hover{
+    
+    border: 3px solid rgb(113, 248, 72);
+    width: 170px;
+    border-radius: 17px;
+    color: black;
+    height: 40px;
+}
+.budiploma4:hover{
+    
+    border: 3px solid rgb(113, 248, 72);
+    width: 170px;
+    border-radius: 17px;
+    color: black;
+    height: 40px;
+}
+.buton2diploma5:hover{
+    
+    border: 3px solid rgb(113, 248, 72);
+    width: 170px;
+    border-radius: 17px;
+    color: black;
+    height: 40px;
+}
+.budiploma6:hover{
+    
+    border: 3px solid rgb(113, 248, 72);
+    width: 170px;
+    border-radius: 17px;
+    color: black;
+    height: 40px;
+}
+.budiploma:hover{
+    
+    border: 3px solid rgb(113, 248, 72);
+    width: 170px;
+    border-radius: 17px;
+    color: black;
+    height: 40px;
+}
+
+.buton2diploma3:hover{
+    
+    border: 3px solid rgb(113, 248, 72);
+    width: 170px;
+    border-radius: 17px;
+    color: black;
+    height: 40px;
+}
+.buton2diploma:hover{
+    
+    border: 3px solid rgb(113, 248, 72);
+    width: 170px;
+    border-radius: 17px;
+    color: black;
+    height: 40px;
+}
