@@ -1,3 +1,5 @@
+<img width="1332" height="608" alt="image" src="https://github.com/user-attachments/assets/e577c463-7d95-4c27-b748-435d85b4cf4e" />
+
 # 📚 Re-Search Book  
 ### Academic Resource Platform (2024–2025)
 
@@ -22,6 +24,8 @@ Re-Search Book centralizes study materials into one organized web interface, all
 - CSS3
 - REST API integration (content delivery)
 - PDF resource handling
+- -----
+<img width="1332" height="628" alt="image" src="https://github.com/user-attachments/assets/a5ea1e38-2657-4ae2-8eca-73cc870c8f1e" />
 
 ---
 
