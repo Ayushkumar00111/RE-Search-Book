@@ -66,7 +66,7 @@ Re-Search Book centralizes study materials into one organized web interface, all
 - Add admin panel for uploading new resources
 - Add authentication for restricted content
 - Add bookmarking & favorites feature
-- Implement pagination for large datasets
+
 
 ---
 
